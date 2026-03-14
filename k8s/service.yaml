@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: database-service
-  namespace: database-service
+  namespace: dev
 spec:
   type: LoadBalancer
   selector:
