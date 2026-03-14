@@ -10,7 +10,7 @@ jobs:
 build:
 runs-on: ubuntu-latest
 
-```
+
 steps:
   - name: Checkout code
     uses: actions/checkout@v4
@@ -105,4 +105,4 @@ steps:
 
       kubectl rollout status deployment/database-service-deployment \
       -n ${{ secrets.K8S_NAMESPACE }} --timeout=200s
-```
+
